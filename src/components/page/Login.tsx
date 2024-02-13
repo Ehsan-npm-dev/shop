@@ -1,14 +1,13 @@
 
+import React from 'react'
 
 function Login() {
-  return 
-  <div>
-<h3>login</h3>
-<form action="#">
-    <input type="text"placeholder="usrname"/>
-</form>
-
-  </div>;
+  return (
+    <div>
+     login page
+    </div>
+  )
 }
 
-export default Login;
+export default Login
+
