@@ -7,6 +7,7 @@ import Wallet from "./components/page/Wallet";
 import Support from "./components/page/Support";
 import Setting from "./components/page/Setting"
 import NotFound from "./components/page/NotFound";
+import Login from "./components/page/Login";
 function App() {
   return (
     <BrowserRouter>
@@ -75,6 +76,16 @@ function App() {
           element={
             <Layout>
               <Setting/>
+            </Layout>
+          }
+        />
+
+
+<Route
+          path="/login"
+          element={
+            <Layout>
+              <Login/>
             </Layout>
           }
         />

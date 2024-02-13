@@ -1,6 +1,7 @@
 import logo from "../../assets/logo/Artboard 2 1.png"
 import user from "../../assets/icon/user (1) 1.png"
 import icon from "../../assets/icon/icons8-cart-64 1.png"
+import {Link} from "react-router-dom"
 function HeaderOrg() {
   return (
     <div className=" flex flex-row justify-between p-2  border w-[1863px] mr-6 h-[83px]  rounded-md mt-4">
@@ -8,7 +9,9 @@ function HeaderOrg() {
      <div className="flex flex-row justify-center items-center p-4 gap-4">
         <div className="flex flex-row items-center gap-2  border p-3 rounded-md">
         <button className="text-xl">
+          <Link to = "/login">
         Sign In /Sign Up
+        </Link>
         </button>
         |
         <img src={user} alt="user" />
